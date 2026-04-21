@@ -1,0 +1,34 @@
+# ...other ignores above...
+
+# Raw data (always ignore)
+data/raw/
+
+# Processed data: first ignore everything in here
+data/processed/*
+
+# But we _do_ want to keep our SQLite seed
+!data/processed/insights.sqlite
+
+# (Optional) Keep the folder itself tracked
+!data/processed/
+
+# Reports, virtual-envs, caches, etc.
+reports/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/
+
+# Ignore top-level models folder
+/models/
+
+# Ignore everything inside src/models
+/src/models/*
+
+# EXCEPTION: allow sentiment.py inside src/models
+!/src/models/sentiment.py
