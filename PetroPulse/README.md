@@ -4,9 +4,7 @@
 
 ---
 
-## 🚀 Live App
 
-**[Launch PetroPulse](https://petropulse.streamlit.app)**
 
 ---
 
