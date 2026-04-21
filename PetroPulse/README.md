@@ -110,27 +110,4 @@ streamlit run app/PetroPulse.py
 python ingest.py --days 7 --per-feed 25
 ```
 
----
-
-## ✅ To-Do / Roadmap
-
-* [ ] Word cloud for topic frequency
-* [ ] Time series chart of sentiment index
-* [ ] Article preview modal
-* [ ] Download as CSV
-* [ ] Daily email reports
-
----
-
-## 👩🏽‍💻 Author
-
-**Zainab Iyiola**
-Graduate Researcher | Data Scientist | Energy Engineer
-GitHub: [@zainab-iyiola](https://github.com/zainab-iyiola)
-
----
-
-## 📜 License
-
-This project is for academic and portfolio purposes. Attribution appreciated if reused.
 
